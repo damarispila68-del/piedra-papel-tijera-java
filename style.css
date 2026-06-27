@@ -1,6 +1,6 @@
-/* =========================
-    FONDO ANIMADO 
-========================= */
+ 
+   /* FONDO ANIMADO*/
+
 body {
     margin: 0;
     height: 100vh;
@@ -38,7 +38,7 @@ body {
 }
 
 
-    TÍTULO
+    /*TÍTULO*/
 
 h1 {
     font-size: 30px;
@@ -48,7 +48,7 @@ h1 {
 }
 
 
-    RESULTADO
+    /*RESULTADO*/
 
 #result {
     margin: 20px 0;
@@ -59,7 +59,7 @@ h1 {
 }
 
 
-   📊 MARCADOR
+  /* MARCADOR*/
 
 .scoreboard {
     display: flex;
@@ -76,7 +76,7 @@ h1 {
 }
 
 
-    BOTONES GAMER
+    /*BOTONES GAMER*/
 
 .buttons {
     display: flex;
