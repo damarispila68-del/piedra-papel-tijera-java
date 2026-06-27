@@ -1,0 +1,152 @@
+/* =========================
+   🌈 FONDO ANIMADO GAMER
+========================= */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    color: white;
+
+    background: linear-gradient(-45deg, #ff00cc, #3333ff, #00ffcc, #ffcc00);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+/* Animación del fondo */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* =========================
+   🧊 TARJETA CENTRAL
+========================= */
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 20px;
+
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+
+    box-shadow: 0 0 30px rgba(0,0,0,0.8),
+                0 0 60px rgba(255,255,255,0.1);
+}
+
+/* =========================
+   🏆 TÍTULO NEÓN
+========================= */
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #ff00cc;
+}
+
+/* =========================
+   📢 RESULTADO
+========================= */
+#result {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+/* =========================
+   📊 MARCADOR
+========================= */
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.scoreboard p {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+    border-radius: 12px;
+
+    box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+/* =========================
+   🎮 BOTONES GAMER
+========================= */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* BOTÓN BASE */
+.buttons button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 15px;
+
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s ease;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+/* HOVER GENERAL */
+.buttons button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px white;
+}
+
+/* 🪨 PIEDRA */
+.buttons button:nth-child(1) {
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    color: white;
+}
+
+/* 📄 PAPEL */
+.buttons button:nth-child(2) {
+    background: linear-gradient(45deg, #00ff87, #60efff);
+    color: black;
+}
+
+/* ✂ TIJERA */
+.buttons button:nth-child(3) {
+    background: linear-gradient(45deg, #ff4d4d, #f9cb28);
+    color: black;
+}
+
+/* =========================
+   🔄 RESET
+========================= */
+.reset {
+    margin-top: 25px;
+    padding: 10px 20px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: linear-gradient(45deg, #ff0066, #ffcc00);
+    color: black;
+
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.reset:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px white;
+}
