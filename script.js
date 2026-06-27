@@ -1,6 +1,6 @@
-// ===============================
-// 🎮 PIEDRA PAPEL O TIJERA
-// ===============================
+
+//  PIEDRA PAPEL O TIJERA
+
 
 // Marcadores
 let playerScore = 0;
@@ -9,9 +9,9 @@ let computerScore = 0;
 // Opciones del juego
 const options = ["piedra", "papel", "tijera"];
 
-// ===============================
-// 🔥 FUNCIÓN PRINCIPAL DEL JUEGO
-// ===============================
+
+//  FUNCIÓN PRINCIPAL DEL JUEGO
+
 function play(playerChoice) {
 
     // CPU elige aleatorio
@@ -19,9 +19,9 @@ function play(playerChoice) {
 
     let result = "";
 
-    // ===========================
-    // 📌 LÓGICA DEL JUEGO
-    // ===========================
+    
+    //  LÓGICA DEL JUEGO
+    
 
     if (playerChoice === computerChoice) {
         result = "🤝 Empate";
@@ -39,9 +39,9 @@ function play(playerChoice) {
         computerScore++;
     }
 
-    // ===========================
-    // 🖥️ MOSTRAR EN PANTALLA
-    // ===========================
+    
+    //  MOSTRAR EN PANTALLA
+
     document.getElementById("result").textContent =
         `Tú: ${playerChoice} | CPU: ${computerChoice} → ${result}`;
 
@@ -49,9 +49,9 @@ function play(playerChoice) {
     document.getElementById("computerScore").textContent = computerScore;
 }
 
-// ===============================
-// 🔄 REINICIAR JUEGO
-// ===============================
+
+//  REINICIAR JUEGO
+
 function resetGame() {
     playerScore = 0;
     computerScore = 0;
