@@ -1,4 +1,4 @@
-Piedra, Papel o Tijera
+TEMA Piedra, Papel o Tijera
 
 Integrante
 DAMARIS MIKAELA PILA JARA
@@ -23,7 +23,7 @@ Determinación del ganador de cada ronda
 Actualización automática del marcador de puntos
 Opción para reiniciar la partida
 Diseño adaptable para una mejor visualización en diferentes tamaños de pantalla
-Fecha
 
+Fecha
 27 de junio de 2026
 
