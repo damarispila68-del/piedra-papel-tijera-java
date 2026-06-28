@@ -5,6 +5,8 @@ DAMARIS MIKAELA PILA JARA
 
 Materia
 Lógica de Programación
+
+
 Objetivo del sistema
 
 Desarrollar un juego de Piedra, Papel o Tijera donde el usuario pueda jugar contra la computadora de manera sencilla. Con este proyecto se busca aplicar la lógica de programación mediante decisiones, condiciones y generación de resultados aleatorios, ofreciendo una experiencia fácil de usar y entendible.
@@ -90,3 +92,17 @@ El desarrollo de este proyecto permitió aplicar los conocimientos de lógica de
 Se logró implementar la lógica del juego usando condiciones, decisiones y manejo de resultados, obteniendo un sistema funcional y fácil de entender.
 
 Este proyecto ayudó a reforzar el pensamiento lógico y la capacidad de resolver problemas paso a paso.
+
+
+
+DIAGRAMA DE CASOS DE USO 
+![CASO DE USO](image-3.png)
+
+DIAGRAMA DE FLUJO DEL SISTEMA
+
+![FLUJO](image-4.png)
+
+
+DIAGRAMA DE ARQUITECURA 
+
+![ARQUITECTURA](image-5.png)
