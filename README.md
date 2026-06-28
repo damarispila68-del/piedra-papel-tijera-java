@@ -1,4 +1,4 @@
-# 🎮 Piedra, Papel o Tijera
+#  Piedra, Papel o Tijera
 
 ## Integrante
 
@@ -128,3 +128,5 @@ Este proyecto ayudó a reforzar el pensamiento lógico y la capacidad de resolve
 
 
 
+![diagramsflujo](image-1.png)
+![diagramspaquetes](image-2.png)
