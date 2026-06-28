@@ -96,7 +96,7 @@ Este proyecto ayudó a reforzar el pensamiento lógico y la capacidad de resolve
 
 
 DIAGRAMA DE CASOS DE USO 
-![CASO DE USO](image-3.png)
+![CASODEUSO](image-1.png)
 
 DIAGRAMA DE FLUJO DEL SISTEMA
 
